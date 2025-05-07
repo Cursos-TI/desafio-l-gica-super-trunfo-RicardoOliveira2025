@@ -111,8 +111,49 @@ int main (){
     printf("A Densidade Populacional Invertida eh: %.12f \n", DenPopInvertida2);
     printf("O valor de Super Poder eh de: %.2f \n", SuperPoder2);
 
-    /* comparativo entre as cartas para os itens 
-    populacao area PIB Pontos turisticos Densidade Populacional PIB per Capita Super Poder */
+    // comparativo 
+    
+    if (Populacao1 > Populacao2) {
+        printf("Carta 1 venceu!\n");
+    } else {
+        printf("Carta 2 venceu!\n");
+    }
+
+    if (AreadaCidade1 > AreadaCidade2) {
+        printf("Carta 1 venceu!\n");
+    } else {
+        printf("Carta 2 venceu!\n");
+    }
+
+    if (PIB1 > PIB2) {
+        printf("Carta 1 venceu!\n");
+    } else {
+        printf("Carta 2 venceu!\n");
+    }
+
+    if (NumerodePontosTuristicos1 > NumerodePontosTuristicos2) {
+        printf("Carta 1 venceu!\n");
+    } else {
+        printf("Carta 2 venceu!\n");
+    }
+
+    if (DensidadePopulacional1 > DensidadePopulacional2) {
+        printf("Carta 1 venceu!\n");
+    } else {
+        printf("Carta 2 venceu!\n");
+    }
+
+    if (PIBperCapita1 > PIBperCapita2) {
+        printf("Carta 1 venceu!\n");
+    } else {
+        printf("Carta 2 venceu!\n");
+    }
+
+    if (SuperPoder1 > SuperPoder2) {
+        printf("Carta 1 venceu!\n");
+    } else {
+        printf("Carta 2 venceu!\n");
+    }
 
     printf("A Populacao da Carta 1 (%d) eh maior do que a da Carta 2 (%d)? %d\n", Populacao1, Populacao2, (Populacao1 > Populacao2));
     printf("A Area da Carta 1 (%f) eh maior do que a da Carta 2 (%f)? %f\n", AreadaCidade1, AreadaCidade2, (AreadaCidade1 > AreadaCidade2));
@@ -122,20 +163,6 @@ int main (){
     printf("O PIB per Capita da Carta 1 (%.2f) eh maior do que a da Carta 2 (%.2f)? %.2f\n", PIBperCapita1, PIBperCapita2, (PIBperCapita1 > PIBperCapita2));
     printf("O Super Poder da Carta 1 (%d) eh maior do que o da Carta 2 (%d)? %d\n", SuperPoder1, SuperPoder2, (SuperPoder1 > SuperPoder2));
     
-    return 0;
-}
-
-    // Comparação de Cartas:
-    // Desenvolva a lógica de comparação entre duas cartas.
-    // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
-
-    // Exemplo:
-    // if (populacaoA > populacaoB) {
-    //     printf("Cidade 1 tem maior população.\n");
-    // } else {
-    //     printf("Cidade 2 tem maior população.\n");
-    // }
-
     // Exibição dos Resultados:
     // Após realizar as comparações, exiba os resultados para o usuário.
     // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
